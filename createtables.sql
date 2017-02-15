@@ -1,7 +1,7 @@
 create table if not exists users
 (
         uid serial primary key,
-        name varchar[50]
+        name varchar(50)
 );
 
 create table if not exists trips
@@ -9,8 +9,8 @@ create table if not exists trips
         tid serial primary key,
         --uid doesn't exist
         uid serial,
-        origin varchar[50],
-        destination varchar[50],
+        origin varchar(50),
+        destination varchar(50),
         dateEarly date,
         dateLate date,
         price money,
