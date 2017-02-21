@@ -1,0 +1,19 @@
+h1{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.need {
+	width: 500px;
+	clear: both;
+}
+.need input {
+	width: 100%;
+	clear: both;
+}
+.give {
+	width: 500px;
+	clear: both;
+}
+.give input {
+	width: 100%;
+	clear: both;
+}
